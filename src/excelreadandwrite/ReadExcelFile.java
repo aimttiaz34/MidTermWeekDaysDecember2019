@@ -12,7 +12,7 @@ import java.util.Iterator;
 
 public class ReadExcelFile {
 
-    private static final String FILE_NAME = System.getProperty("user.dir") + "/DataTest/Sample.xlsx";
+    private static final String FILE_NAME = "C:\\Users\\Ishtiaque\\IdeaProjects\\MidTermWeekDaysDecember2019\\src\\data\\imtiaz.xlsx";
 
     public static void main(String[] args) {
 
@@ -39,7 +39,7 @@ public class ReadExcelFile {
                     }
 
                 }
-                System.out.println();
+                System.out.println("Database Connected");
 
             }
         } catch (FileNotFoundException e) {

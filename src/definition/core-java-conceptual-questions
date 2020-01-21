@@ -1,49 +1,84 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
-
-
+A.  A programming language is a set of commands, instructions, and other syntax use to create a software program.
 
 
 What jdk contains or composed of and define each components?
-A.
-
-
+A.The Runtime Interpreter
+  The Compiler
+  The Applet Viewer
+  The Debugger
+  The Class File Disassembler
+  The Header and Stub File Generator
+  The Documentation Generator
+  Applet Demos
+  API Source Code
 
 
 
 What is IDE?
-A.
+A. An integrated development environment (IDE) is a software application that provides comprehensive facilities
+to computer programmers for software development.
 
 
 
 What are the IDEs available in the market to support java?
-A.
+A. Eclipse, intellij, Netbeans, visual studios.
 
 
 
 Explain the entire java life cycle.
+
 what is class?
+-A class is a blueprint or prototype.
+
 What is object?
+-An object is an instance of a class.
+
 What is the entry point of an application?
+-the entry point of an application is the main method.
+
 Why main is static?
+- main is static because you dont have to create an object you can call the method by its class name.
+
 Which class is the superclass of all classes?
+-object class is the super class or base class of all classes.
+
 What is difference between path and classpath variables?
+- class path is used by java compiler to find path of classes
+
 What is the difference between an Interface and Abstract class?
+-The primary difference between an abstract class and interface is that an interface can only possess
+declaration of public static methods with no concrete implementation while an abstract class
+can have members with any access specifiers (public, private etc) with or without concrete implementation.
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+
 what is Access Specifier?
+
 What is OOP ? Define each feature of java OOP.
+
 What is Java Package and which package is imported by default?
+-Java package is a container which holds all the classes.
 What is API? Name list of API that you have used so far.
+
 Does java support multiple inheritance, explain why or why not?
+
 What is method overloading and when it happens?
+
 Explain exceptions in java and how to handle it.
+
 What is static keyword in java? How it has been used in variables and methods ?
+
 What is final and how it has been used variables and methods?
+
 What is final, finally and finalize?
+
 What is a constructor ?
+
 Can we have multiple constructors in a class?
+
 If we don't have a constructor declared, what is called during the object creation?
 What is "this" keyword in java ?
 What is "super" keyword in java? How many possible way can you use?
@@ -74,12 +109,20 @@ What is the difference between stack and heap in Java?
 What is reflection in java and why is it useful?
 what is multithreading in java?
 What is the use of synchronization in Java?
+
 What is Framework?
+-Frameworks are large bodies usually many classes of pre written code to which you add
+your own code to solve a problem in a specific domain.
 What are the testing Framework available in java?
+
 Difference between jUnit and testNG?
+
 What are the dependencies for this project?
+
 what is dependency injection in java?
+-The purpose of dependency injection is to reduce coupling in your application to make it more flexible and easier to test.
 What is static binding and dynamic binding?
+-Static Binding that happens at compile time and Dynamic Binding that happens at runtime.
 
 
 
