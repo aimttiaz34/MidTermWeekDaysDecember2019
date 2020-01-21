@@ -10,5 +10,22 @@ public class FindMissingNumber {
          */
          int [] array = new int[]{10, 2, 1, 4, 5, 3, 7, 8, 6};
 
+        int n1 = array[0];
+        int i;
+        for (i = 0; i < array.length - 1; i++) {
+            int a = (array[i + 1] - array[i]);
+            if (a > n1)
+                n1 = a;
+            switch (a) {
+                case 1:
+                    int missing = (array[i] + array[i + 1]) / 2;
+                    System.out.println(missing);
+                    break;
+
+                default:
+
+            }
+        }
+
     }
 }
